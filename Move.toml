@@ -1,0 +1,11 @@
+[package]
+name = "aptos_transfer"
+version = "1.0.0"
+authors = ["Your Name <your.email@example.com>"]
+license = "Apache-2.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
+
+[addresses]
+aptos_transfer = "0xa0c7cbfb24bdf7a12ad92e3923a20dc133cb21ddd05da1e20f61e79d9c575a8e"  # Replace with your own address
